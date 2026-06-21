@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF9F5;
+    color: #3D1F3D;
+}
+
+header {
+    background-color: #FFFFFF;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #F2C14E;
+}
+
+header h1 {
+    color: #FF4F9A;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: #3D1F3D;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #FF4F9A;
+}
+
+#hero {
+    text-align: center;
+    padding: 6rem 2rem;
+}
+
+#hero h2 {
+    font-size: 2.8rem;
+    color: #3D1F3D;
+    margin-bottom: 1rem;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    color: #5C3A5C;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+}
+
+#hero a {
+    display: inline-block;
+    background-color: #FF4F9A;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 0.8rem 2rem;
+    border-radius: 30px;
+}
+
+#hero a:hover {
+    background-color: #E0367F;
+}
+
+#about {
+    background-color: #FDEAF0;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+#about h2 {
+    color: #FF4F9A;
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+}
+
+#about p {
+    font-size: 1.1rem;
+    color: #5C3A5C;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact {
+    background-color: #FDEAF0;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+#contact h2 {
+    color: #FF4F9A;
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+}
+
+#contact a {
+    display: inline-block;
+    background-color: #FF4F9A;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 0.8rem 2rem;
+    border-radius: 30px;
+    margin: 0 1rem;
+}
+
+#contact a:hover {
+    background-color: #E0367F;
+}
+
+footer {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 1rem 2rem;
+    border-top: 2px solid #F2C14E;
+}

@@ -1,0 +1,222 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+body{
+
+font-family: Arial, sans-serif;
+    background-color: #0B1E2D;
+    color: #E6F1F5;
+
+
+}
+
+header {
+    background-color: #102A3D;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #2DD4BF;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: #E6F1F5;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #2DD4BF;
+}
+
+#hero {
+    text-align: center;
+    padding: 6rem 2rem;
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+#hero p {
+    font-size: 1.1rem;
+    color: #E6F1F5;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+}
+
+#hero a {
+    display: inline-block;
+    background-color: #2DD4BF;
+    color: #0B1E2D;
+    padding: 0.8rem 2rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#hero a:hover {
+    background-color: #3BC9DB;
+}
+
+#services {
+    padding: 4rem 2rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+#services h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    width: 100% ;
+}
+
+#services article {
+    background-color: #102A3D;
+    border: 1px solid #1C3A4F;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: left;
+}
+
+#services article h3 {
+    color: #2DD4BF;
+    margin-bottom: 0.5rem;
+}
+
+#services article p {
+    color: #E6F1F5;
+}
+
+#portfolio {
+    padding: 4rem 2rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+#portfolio article {
+    background-color: #102A3D;
+    border: 1px solid #1C3A4F;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: left;
+}
+
+
+
+#portfolio article h3 {
+    color: #2DD4BF;
+    margin-bottom: 0.5rem;
+}
+
+#portfolio article p {
+    color: #E6F1F5;
+}
+
+#portfolio h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+#portfolio article a {
+    color: #2DD4BF;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#portfolio article a:hover {
+    text-decoration: underline;
+}
+
+#about {
+    background-color: #102A3D;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+#about p {
+    font-size: 1.1rem;
+    color: #E6F1F5;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+}
+
+#about h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+#contact {
+    background-color: #102A3D;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 1.1rem;
+    color: #E6F1F5;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+}
+
+#contact h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+#contact a {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #2DD4BF;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: #102A3D;
+    padding: 2rem;
+    text-align: center;
+    color: #8FA9B8;
+    font-size: 0.9rem;
+}
+
+

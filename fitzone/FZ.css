@@ -1,0 +1,176 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+
+}
+
+body{
+font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #CFCFCF;
+}
+
+header {
+    background-color: #1F1F1F;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #FF3B30;
+    font-size: 1.5rem;
+}
+
+header a {
+    background-color: #FF3B30;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 0.5rem 1.2rem;
+    border-radius: 20px;
+}
+
+header a:hover {
+    background-color: #E0331F;
+}
+
+#hero {
+    text-align: center;
+    padding: 6rem 2rem;
+}
+
+#hero h2 {
+    font-size: 4rem;
+    color: #FFFFFF;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    color: #CFCFCF;
+    margin-top: 1rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hero a {
+    background-color: #FF3B30;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 0.75rem 1.5rem;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+#included {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+#included h2 {
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+#included ul {
+    list-style: none;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#included li {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    text-align: left;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    border-left: 4px solid #FF3B30;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+#why {
+    background-color: #1E1E1E;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+#why h2 {
+    color: #FF3B30;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#why p {
+    font-size: 1.2rem;
+    color: #CFCFCF;
+    max-width: 650px;
+    margin: 0 auto 2rem;
+    line-height: 1.6;
+}
+
+#why a {
+    background-color: #FF3B30;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 0.75rem 1.5rem;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+#why a:hover {
+    background-color: #E0331F;
+}
+
+#signup {
+    background-color: #FF3B30;
+    padding: 6rem 2rem;
+    text-align: center;
+}
+
+#signup h2 {
+    color: #121212;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#signup p {
+    font-size: 1.3rem;
+    color: #1E1E1E;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    font-weight: 600;
+}
+
+#signup a {
+    background-color: #121212;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 1rem 2.5rem;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+#signup a:hover {
+    background-color: #2B2B2B;
+}
+
+footer {
+    background-color: #1E1E1E;
+    color: #888888;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.9rem;
+}
