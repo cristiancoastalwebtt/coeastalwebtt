@@ -219,4 +219,26 @@ footer {
     font-size: 0.9rem;
 }
 
+.discount-note {
+    width: 100%;
+    text-align: center;
+    color: #FF5722;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+#services article .price {
+    color: #2DD4BF;
+    font-weight: 800;
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+}
+
+#services article .old-price {
+    color: #6B8B98;
+    text-decoration: line-through;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
 
